@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Categories - LaptopZone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">💻 LaptopZone</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="categories.html" class="active">Categories</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" id="cartBtn">🛒 Cart (<span id="cartCount">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Categories Page -->
+  <section class="categories">
+    <h2>Our Categories</h2>
+    <p>Explore a wide range of laptops and accessories designed for performance, portability, and style.</p>
+
+    <div class="category-grid">
+      <div class="card">
+        <img src="W:\kalash site 2\bussiness laptop pic.jpg"alt="Business Laptops">
+        <h3>Business Laptops</h3>
+        <p>Reliable laptops built for productivity, security, and professional use.</p>
+      </div>
+      <div class="card">
+        <img src="W:\kalash site 2\gaming laptop pic.jpg"alt="Gaming Laptops">
+        <h3>Gaming Laptops</h3>
+        <p>High-performance laptops with dedicated graphics and RGB designs.</p>
+      </div>
+      <div class="card">
+        <img src="W:\kalash site 2\student laptop pic.jpg"alt="Student Laptops">
+        <h3>Student Laptops</h3>
+        <p>Affordable and lightweight laptops perfect for online learning and projects.</p>
+      </div>
+      <div class="card">
+        <img src="W:\kalash site 2\accessories pic.jpg" alt="Accessories">
+        <h3>Accessories</h3>
+        <p>Essential tools — keyboards, mice, headsets, and stands to complete your setup.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Popup -->
+  <div class="cart-popup" id="cartPopup">
+    <h3>Your Cart</h3>
+    <ul id="cartItems"></ul>
+    <button id="closeCart">Close</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 LaptopZone | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

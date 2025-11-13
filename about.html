@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - LaptopZone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">💻 LaptopZone</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" id="cartBtn">🛒 Cart (<span id="cartCount">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About LaptopZone</h2>
+    <p>
+      Founded in 2020, <b>LaptopZone</b> is a trusted technology store dedicated to providing premium laptops and accessories from leading brands.
+      Our goal is to make high-performance computing accessible to everyone — from students to professionals and gamers.
+    </p>
+
+    <div class="category-grid">
+      <div class="card">
+        <h3>💡 Our Vision</h3>
+        <p>To be the most customer-focused online tech store, offering innovative and reliable products at fair prices.</p>
+      </div>
+      <div class="card">
+        <h3>⚙️ Our Mission</h3>
+        <p>Deliver top-quality products with fast shipping, transparent pricing, and 24/7 support.</p>
+      </div>
+      <div class="card">
+        <h3>👥 Our Team</h3>
+        <p>A group of passionate tech lovers committed to improving your digital experience.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Popup -->
+  <div class="cart-popup" id="cartPopup">
+    <h3>Your Cart</h3>
+    <ul id="cartItems"></ul>
+    <button id="closeCart">Close</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 LaptopZone | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

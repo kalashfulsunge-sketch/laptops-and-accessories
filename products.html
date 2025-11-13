@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products - LaptopZone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">💻 LaptopZone</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#" id="cartBtn">🛒 Cart (<span id="cartCount">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Product Section -->
+  <section class="products">
+    <h2>All Products</h2>
+
+    <!-- Filter Buttons -->
+    <div class="category-grid">
+      <button class="filter-btn active" data-category="all">All</button>
+      <button class="filter-btn" data-category="laptop">Laptops</button>
+      <button class="filter-btn" data-category="accessory">Accessories</button>
+      <button class="filter-btn" data-category="gaming">Gaming Gear</button>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="product-grid">
+      <div class="product" data-category="laptop">
+        <img src="W:\kalash site 2\Dell’s new XPS 13.jpg" alt="Dell XPS 13">
+        <h3>Dell XPS 13</h3>
+        <p>₹98,000</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-category="laptop">
+        <img src="W:\kalash site 2\Two MacBook Air M2 Silver Mockup.jpg" alt="MacBook Air M2">
+        <h3>MacBook Air M2</h3>
+        <p>₹1,15,000</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-category="laptop">
+        <img src="W:\kalash site 2\lenovo Thinkpad e14.jpg"alt="ThinkPad">
+        <h3>Lenovo ThinkPad E14</h3>
+        <p>₹78,500</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-category="accessory">
+        <img src="W:\kalash site 2\Logitech  master m3.jpg" alt="Wireless Mouse">
+        <h3>Logitech MX Master 3</h3>
+        <p>₹8,000</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-category="accessory">
+        <img src="W:\kalash site 2\Foldable Laptop Stand.jpg"alt="Laptop Stand">
+        <h3>Aluminum Laptop Stand</h3>
+        <p>₹1,499</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-category="gaming">
+        <img src="W:\kalash site 2\Hyperx _ _ Cloud Flight 2.jpg" alt="Gaming Headset">
+        <h3>HyperX Cloud II</h3>
+        <p>₹7,200</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-category="gaming">
+        <img src="W:\kalash site 2\Corsair K60 RGB Pro.jpg" alt="RGB Keyboard">
+        <h3>Corsair K60 RGB Pro</h3>
+        <p>₹5,500</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-category="gaming">
+        <img src="W:\kalash site 2\Mouse Pad gamer Razer Goliathus.5mm black_green"alt="Gaming Mouse Pad">
+        <h3>Razer Goliathus</h3>
+        <p>₹2,000</p>
+        <button class="add-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Popup -->
+  <div class="cart-popup" id="cartPopup">
+    <h3>Your Cart</h3>
+    <ul id="cartItems"></ul>
+    <button id="closeCart">Close</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 LaptopZone | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
